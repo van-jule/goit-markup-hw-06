@@ -4,10 +4,12 @@
     {
       "icon": {
         "paths": [
-          "M270.131 529.203l-4.71-4.506-4.71 4.437-65.809 62.396 5.188 4.983 243.371 232.107 4.71-4.506 517.461-493.636-5.188-4.915-64.922-61.918-4.71 4.506-447.351 426.394-173.329-165.342z"
+          "M270.133 529.18l-4.695-4.48-70.546 66.825 248.551 237.109 522.183-498.145-70.083-66.856-452.098 430.877-173.311-165.331z"
         ],
         "attrs": [
           {
+            "fill": "rgb(255, 255, 255)",
+            "stroke": "rgb(255, 255, 255)",
             "strokeLinejoin": "miter",
             "strokeLinecap": "butt",
             "strokeMiterlimit": "4",
@@ -15,13 +17,17 @@
           }
         ],
         "width": 1092,
+        "isMulticolor": false,
+        "isMulticolor2": false,
         "grid": 0,
         "tags": [
-          "check1 (1)"
+          "check"
         ]
       },
       "attrs": [
         {
+          "fill": "rgb(255, 255, 255)",
+          "stroke": "rgb(255, 255, 255)",
           "strokeLinejoin": "miter",
           "strokeLinecap": "butt",
           "strokeMiterlimit": "4",
@@ -29,9 +35,9 @@
         }
       ],
       "properties": {
-        "order": 2,
-        "id": 1,
-        "name": "check1-1",
+        "order": 5,
+        "id": 0,
+        "name": "check",
         "prevSize": 32
       },
       "setIdx": 0,

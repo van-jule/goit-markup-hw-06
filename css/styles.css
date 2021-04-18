@@ -837,7 +837,7 @@ address {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.check-icon {
+/* .check-icon {
   display: inline-block;
   width: 16px;
   height: 15px;
@@ -847,7 +847,7 @@ address {
   background-color: transparent;
 
   border-radius: 2px;
-}
+} */
 
 .checkbox-input {
   position: absolute !important;
@@ -864,12 +864,28 @@ address {
   margin-bottom: 30px;
 }
 
-.checkbox-input:checked + .check-icon {
+/* .checkbox-input:checked + .check-icon {
   border-color: var(--accent-color);
   background-color: var(--accent-color);
   background-image: url('../images/icons/check.svg');
   background-size: contain;
   background-origin: border-box;
+} */
+
+.icon-check {
+  margin-right: 8px;
+  border: 2px solid var(--title-color);
+  background-color: transparent;
+  fill: transparent;
+
+  border-radius: 2px;
+}
+
+.checkbox-input:checked ~ .icon-check {
+  margin-right: 8px;
+  background-color: var(--accent-color);
+  fill: #fff;
+  border: none;
 }
 
 .check-label {
